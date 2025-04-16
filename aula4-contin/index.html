@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Formulário</title>
+</head>
+<body>
+    <body>
+        <a href="https://recreio.com.br/media/_versions/legacy/2021/06/30/hello-kitty-1230579_widelg.jpg" target="_blank">
+        <img src="hellokitty1.jpg" width="400" alt="Hello kitty">
+        </a>
+        <h2><b>♡Bem vindo(a) ao Formulário!♡</b></h2>
+    <!-- post => envia dados no corpo da requisição
+     get => envia dados via URL como parâmetro-->
+        <form action="#" method="post">
+
+        <label for="nome">Nome:</label>
+        <input 
+        type="nome" 
+        name="nome" 
+        id="nome"
+        placeholder="Informe aqui o seu nome"
+        size="30"
+        >
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input 
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Informe aqui o seu email"
+        size="30"
+        >
+        <br><br>
+
+        <label for="data_visita">Data Visita:</label>
+        <input 
+        type="date"
+        name="data_visita"
+        id="data_visita"
+        >
+        <label for="hora_visita">Hora Visita:</label>
+        <input 
+        type="time"
+        name="hora_visita"
+        id="hora_visita"
+        >
+        <br><br>
+
+        <label for="data_hora_visita">Data & Hora Visita</label>
+        <input 
+        type="datetime-local"
+        name="data_hora_visita"
+        id="data_hora_visita"
+        >
+        <br><br>
+        
+        <label for="telefone">Telefone:</label>
+        <input 
+        type="tel"
+        name="telefone"
+        id="telefone"
+        placeholder="(82)9999-9999"
+        />
+        <br><br>
+        
+        <label for="tempo">Tempo de Visita</label>
+        <input 
+        type="number"
+        name="tempo"
+        id="tempo"
+        >
+        <br><br>
+        <label for="observacao">Observação:</label>
+        <br>
+        <textarea 
+        name="observacao" 
+        id="observacao"
+        cols="50"
+        rows="5"
+        placeholder="Observação"
+        ></textarea>
+
+    
+    <!-- disabled => desabilita input (para digitar) -->
+</form>
+</body>
+</html>
