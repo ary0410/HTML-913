@@ -1,0 +1,18 @@
+body {
+    font-family: "Playwrite AU SA", cursive;
+}
+
+h1{
+    color: fuchsia
+}
+#paragrafo{
+    color: blue;
+    font-size: 20px;
+    
+}
+
+.paragrafo{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
