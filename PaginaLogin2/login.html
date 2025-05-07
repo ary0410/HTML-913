@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login ♡</title>
+    <link rel="stylesheet" type="text/css" href="flexbox.css">
+</head>
+<body>
+    <div class="titulo-container">
+      <h1>♡ PÁGINA DE LOGIN ♡</h1>
+    </div>
+    <br>
+    <div class="login-container">
+      <form>
+        <h2>Email:</h2>
+        <input type="email" id="email" placeholder="exemplo@gmail.com">
+        <h2>Senha:</h2>
+        <input type="password" id="password" placeholder="Senha">
+        <p><a href="recovery.html">Esqueceu a senha?</a></p>
+        <button type="button" onclick="checkPassword()">Entrar</button>
+        <button type="button" onclick="limparCampos()">Limpar</button>
+      </form>
+    </div>
+        <script>
+            function checkPassword() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            alert(`Email: ${email}\nSenha: ${password}`);
+            }
+            function limparCampos() {
+            document.getElementById('email').value = '';
+            document.getElementById('password').value = '';
+            }
+        </script>
+
+    </div>
+</body>
+</html>
