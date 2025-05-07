@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="flexbox.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Email:</h2>
+        <input type="email" id="email" placeholder="exemplo@gmail.com">
+        <but</button>
+        <h2>Senha:</h2>
+        <input type="password" id="password" placeholder="Senha">
+        <br>
+        <button onclick="checkPassword()">Entrar</button> <button onclick="limparCampos()">Limpar</button>
+        <p>
+        <a href="recovery.html">Esqueceu a senha?</a>
+          </p>
+
+
+        <script>
+            function checkPassword() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            // Aqui você pode adicionar a verificação de login
+            alert(`Email: ${email}\nSenha: ${password}`);
+            }
+
+            function limparCampos() {
+            document.getElementById('email').value = '';
+            document.getElementById('password').value = '';
+            }
+        </script>
+
+    </div>
+</body>
+</html>
