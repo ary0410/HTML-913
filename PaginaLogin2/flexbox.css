@@ -20,7 +20,7 @@ body {
   
 .login-container {
     background: #ffecec;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     box-shadow: 0 0 15px rgb(255, 153, 250);
     text-align: center;
@@ -78,8 +78,14 @@ a {
     color: rgb(255, 71, 246);
     text-decoration: none; 
     font-size: 25px;
-    justify-content: space-evenly;
   }
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
 
 ::placeholder{
     font-size: 20px;
