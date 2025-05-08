@@ -1,20 +1,41 @@
 body {
     font-family: 'Bookman', 'URW Bookman L', serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-image: url('trio2.jpg');
-    min-height: 100vh;
+    min-height: 115vh;
     margin: 0;
 }
+.titulo-container {
+    background: #ffecec;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgb(255, 153, 250);
+    text-align: center;
+    margin-top: 30px;
+    width: 500px;
+  }
+  
 .login-container {
     background: #ffecec;
-    padding: 5px;
+    padding: 10px;
     border-radius: 20px;
     box-shadow: 0 0 15px rgb(255, 153, 250);
     text-align: center;
-    width:500px;
+    width: 500px;
+    justify-content: center;
+
 }
+
+h1{
+    color: rgb(255, 71, 246);
+}
+h2{
+    font-size: 30px;
+}
+
 
 input[type="email"]{
     padding: 10px;
@@ -36,24 +57,34 @@ input[type="password"] {
 }
 
 button {
-    padding: 10px 20px;
-    background-color: rgb(255, 154, 250);
-    border: none;
+    padding: 20px 20px;
+    background-color: rgb(255, 153, 250);
     border-radius: 5px;
+    border-color:rgb(255, 71, 246);
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
     justify-content: flex-end;
+    font-size: 30px;
+    font-family: 'Bookman', 'URW Bookman L', serif;
+    
 }
 
 button:hover {
-    background-color: #ccc;
+    background-color: rgb(255, 71, 246);
 }
 
 a {
     color: rgb(255, 71, 246);
     text-decoration: none; 
+    font-size: 25px;
   }
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 ::placeholder{
     font-size: 20px;
