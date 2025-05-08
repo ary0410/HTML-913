@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    font-family: "Bubblegum Sans", sans-serif;
+    background-image: url('fundoHK.png');
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+   border-radius: 999px;
+   width: 250px;
+   box-shadow: 0 0 50px white;
+}
+
+.menu{
+
+}
