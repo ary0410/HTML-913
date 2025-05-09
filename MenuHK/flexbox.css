@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    font-family: "Bubblegum Sans", sans-serif;
+    background-image: url('fundoHK.png');
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+   border-radius: 200px;
+   width: 200px;
+   box-shadow: 0 0 100px #FF2A68;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 650px;
+}
+
+.menu-btn {
+    background: #ffecec;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 0 30px rgb(255, 42, 104);
+    width: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5C3A2E;
+    cursor: pointer;
+    transition: all 0.1s ease;
+  }
+  
+.menu-btn:hover {
+    background: #FFD6E7;
+    transform: scale(1.05);
+  }
+
+.box-perfil-nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.1s ease;
+}
+
+.perfil{
+    display: flex;
+    border-radius: 100px;
+    height: 80px;
+    box-shadow: 0 0 30px #FF6FA2;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.nome{
+    display: flex;
+    background: #ffecec;
+    padding: 1px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 30px rgb(255, 42, 104);
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #5C3A2E;
+    cursor: pointer;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.nome:hover{
+    background: #FFD6E7;
+    transform: scale(1.05);
+}
+
+h1{
+    color: #5C3A2E;
+}
