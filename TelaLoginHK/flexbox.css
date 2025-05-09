@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    font-family: "Bubblegum Sans", sans-serif;
+    background-image: url('fundo_laco.png');
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
